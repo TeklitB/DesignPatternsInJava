@@ -1,11 +1,11 @@
-package Prototype;
+package prototype;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import Prototype.shapes.Circle;
-import Prototype.shapes.Rectangle;
-import Prototype.shapes.Shape;
+import prototype.shapes.Circle;
+import prototype.shapes.Rectangle;
+import prototype.shapes.Shape;
 
 public class Client {
     public static void main(String[] args) {

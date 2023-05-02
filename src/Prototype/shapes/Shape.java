@@ -1,4 +1,4 @@
-package Prototype.shapes;
+package prototype.shapes;
 
 import java.util.Objects;
 

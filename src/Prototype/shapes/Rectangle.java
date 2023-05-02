@@ -1,4 +1,4 @@
-package Prototype.shapes;
+package prototype.shapes;
 
 public class Rectangle extends Shape {
     public int width;
