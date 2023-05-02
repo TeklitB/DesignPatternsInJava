@@ -15,6 +15,7 @@
         builders using a common interface.
 ## Case study
 - If you have a constructor with tens optional parameters, calling such a beast will be very inconvenient.
+- In order to construct an A class instance if you need to create a B class object and a C class object, then Builder patten is a good choice to solve this issue.
 - The Builder pattern lets you build the objects step by step, using only those steps that you really need. 
 - So, implementing the Builder pattern allows you to don’t have to cram dozens of parameters into your constructors.
 - So, use the Builder pattern when you want your code to be able to create different representations of some product (for example, stone and wooden houses).
