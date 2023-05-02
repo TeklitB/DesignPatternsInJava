@@ -36,6 +36,19 @@
 ### Example: House can be built in different ways.
     - Extract the House building process into a separate house builder class
     - This class has a set of methods for building various types of house.
+    - To construct a house:
+        - construct a four wall
+        - install a door
+        - fit a pair of windows
+        - build a roof
+    - features of a house:
+        - regular house
+        - small castle
+        - palace
+    - components
+        - wood and glass
+        - stone and iron
+        - gold and diamond
 
 **How to Implement**
 1. Clearly define the common construction steps for building all available product representations. 
