@@ -13,7 +13,7 @@ Intutive solution:
 ## Solution
 The Prototype pattern delegates the cloning process to the actual objects that are being cloned. The pattern declares a common interface for all objects that support cloning. This interface lets you clone an object without coupling your code to the class of that object. Usually, such an interface contains just a single clone method. 
 The implementation of the clone method is very similar in all classes. The method creates an object of the current class and carries over all of the field values of the old object into the new one. You can even copy private fields because most programming languages let objects access private fields of other objects that belong to the same class.
-An object that supports cloning is called a **creationalpatterns.prototype*. 
+An object that supports cloning is called a **creationalpatterns.prototype**. 
 
 ## How to Implement
 1. Create the **creationalpatterns.prototype interface** and declare the clone method in it. Or you can add the method to all classes of an existing class hierarchy, if available.
