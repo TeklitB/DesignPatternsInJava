@@ -4,11 +4,11 @@ public class ClientThreadSafe {
     public static void main(String[] args) {
         System.out.println("Thread safe Singleton Pattern implementation." + "\n");
 
-        Thread threadFoo = new Thread(new Sd());
-        Thread threadBar = new Thread(new Sod());
+        Thread sd = new Thread(new Sd());
+        Thread sod = new Thread(new Sod());
 
-        threadFoo.start();
-        threadBar.start();
+        sd.start();
+        sod.start();
     }
 
     static class Sd implements Runnable {
